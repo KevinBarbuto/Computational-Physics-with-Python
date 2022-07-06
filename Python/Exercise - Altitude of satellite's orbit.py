@@ -1,6 +1,6 @@
 # Objective: Write a program that takes a user input for the period of
 # a satellite's orbit, and then outputs the necessary altitude of the
-# satellite.
+# satellite. The satellite's name is "Thrash".
 
 G = 6.67e-11 # Newton's gravitational constant
 M = 5.97e24 # mass of the earth
