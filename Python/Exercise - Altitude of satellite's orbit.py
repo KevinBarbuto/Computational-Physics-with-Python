@@ -11,3 +11,5 @@ T = float(input("Enter the period of the satellite's orbit, in seconds: "))
 h = G*M*T**2 / 4*pi**2 - R # satellite's altitude
 
 print("The satellite must be ", h, "meters from the earth's surface.")
+
+# The derivation for the formula used can be seen in "satellite altitude derivation.jpg".
