@@ -10,7 +10,7 @@ pi = 3.1415926535 # pi, rounded
 T = float(input("Enter the period of the satellite's orbit, in seconds: "))
 h = (G*M*T**2 / (4*pi**2) )**(1/3) - R # satellite's altitude
 
-print("The satellite must be ", h, "meters from the earth's surface.")
+print("The satellite must be", h, "meters from the earth's surface.")
 
 # The derivation for the formula used can be seen in "satellite altitude derivation.jpg".
 
