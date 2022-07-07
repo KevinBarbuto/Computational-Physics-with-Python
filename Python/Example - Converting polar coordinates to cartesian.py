@@ -11,4 +11,4 @@ theta = d * (pi/180) # convert from degrees into radians
 x = r*cos(theta) # convert into cartesian coordinates
 y = r*sin(theta)
 
-print("Cartesian coordinates: x =", x, "y =", y)
+print("Cartesian coordinates: x =", x, " y =", y)
