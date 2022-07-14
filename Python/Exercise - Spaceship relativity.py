@@ -1,7 +1,6 @@
 # Objective: Find the time it takes for a spaceship to reach its destination,
 # both classically and relativistically.
 
-
 from math import sqrt
 
 x = float(input("Enter the distance in light years for the ship to travel: "))
