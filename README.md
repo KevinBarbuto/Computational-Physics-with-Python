@@ -1,3 +1,5 @@
 # Practice
 
-Going to give this coding thing another shot. If this repo never gets updated again, you'll know how that shot went. Anyways, I'll put little projects here while I try to get better at learning Python.
+Archive of tests, examples, and various simple codes I experiment with as I continue on my never-ending journey to improve my programming skills.
+
+The "Python" folder primarily consists of exercise problems from a textbook that was used in my undergraduate "Programming with Physics" course. All solutions are entirely my own.
