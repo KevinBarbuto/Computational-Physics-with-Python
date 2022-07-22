@@ -9,4 +9,3 @@ while C <= ceiling:
     print(int(C))
     C = ( (4*n + 2)/(n + 2) ) * C # Calculates the next number
     n += 1
-    
