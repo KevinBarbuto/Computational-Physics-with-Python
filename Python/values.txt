@@ -1,0 +1,4 @@
+# Add or remove an additional row with other values to change the average.
+
+5.0
+10.0
