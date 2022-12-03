@@ -1,0 +1,1 @@
+These are codes I wrote while following along with the great courses at freecodecamp.org. Since these were written while following along with online courses, they don't necessarily represent my personal coding or design style beyond showing off some of what I've been exposed to.
