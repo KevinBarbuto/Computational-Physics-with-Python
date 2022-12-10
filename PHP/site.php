@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-	<title>PHP Testing</title>
+    <title>PHP Testing</title>
   </head>
   <body>
     <?php
-	  echo("Hello World");
-	 ?>
+      echo("Hello World");
+     ?>
   </body>
 </html>
