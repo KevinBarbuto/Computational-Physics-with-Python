@@ -9,8 +9,8 @@
     <form action="site.php" method="get">
 	    Name: <input type="text" name="username">
 	    <br>
-		Age: <input type="text" name="age">
-		<input type="submit">
+	    Age: <input type="text" name="age">
+	    <input type="submit">
 	</form>
 	<br>
 	Your name is <?php echo $_GET["username"] ?>
