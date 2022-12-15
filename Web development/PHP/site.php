@@ -5,18 +5,19 @@
     <title>PHP Testing</title>
   </head>
   <body>
-  
-    <form action="site.php" method="get">
-      Name: <br><input type="text" name="username">
-      <br>
-      Age: <br><input type="text" name="age">
-      <br><input type="submit">
+      
+    <form action="site.php" method="post">
+      Apples: <input type="checkbox" name="fruits[]" value="apples"><br>
+      Oranges: <input type="checkbox" name="fruits[]" value="oranges"><br>
+      Pears: <input type="checkbox" name="fruits[]" value="pears"><br>
+      <input type="submit">
     </form>
-    <br>
-    <?php if( isset($_GET["username"]) && isset($_GET["age"]) ): ?>
-      Your name is <?php echo $_GET["username"] ?>
-      <br>
-      Your age is <?php echo $_GET["age"] ?>
-    <?php endif; ?>
+    
+    <?php
+    
+      $fruits = $_POST["fruits"];
+      echo $fruits[1];
+    
+     ?>
   </body>
 </html>
