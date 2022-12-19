@@ -7,11 +7,12 @@
   <body>
     
     <?php
-        function sayHi($name){
-            echo "Hello $name";
-        }
-        
-        sayHi("Kevin")
+      function cube($num){
+          echo "Hello";
+          return;
+      }
+      
+      echo cube(4);
      ?>
     
   </body>
