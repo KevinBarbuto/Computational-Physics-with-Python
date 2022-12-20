@@ -7,17 +7,20 @@
   <body>
     
     <?php
-      $isMale = false;
-      $isTall = false;
-      if ($isMale && $isTall){
-          echo "You are a tall male";
-      } elseif($isMale && !$isTall){
-          echo "You are a short male";
-      } elseif(!$isMale && $isTall){
-          echo "You are not male but are tall";
-      } else {
-          echo "You are not male and not tall";
+      
+      function getMax($num1, $num2, $num3) {
+          
+          if ($num1 >= $num2 && $num1 >= $num3){
+              return $num1;
+          } elseif($num2 >= $num1 && $num2 >= $num3) {
+              return $num2;
+          } else {
+              return $num3;
+          }
       }
+      
+      echo getMax(3000, 3000, 400);
+      
      ?>
     
   </body>
