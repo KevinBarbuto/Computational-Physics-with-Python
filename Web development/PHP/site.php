@@ -6,37 +6,13 @@
   </head>
   <body>
     
-    <form action="site.php" method="post">
-      What was your grade?<br>
-      <input type="text" name="grade">
-      <input type="submit">
-    </form>
-    
     <?php
+      $index = 6;
       
-      if(isset($_POST["grade"])){
-          $grade = $_POST["grade"];
-          
-          switch($grade){
-              case "A":
-                echo "You did great!";
-                break;
-              case "B":
-                echo "You did well.";
-                break;
-              case "C":
-                echo "You passed!";
-                break;
-              case "D":
-                echo "lmao";
-                break;
-              case "F":
-                echo "You failed. Better luck next time!";
-                break;
-              default:
-                echo "Invalid grade";
-          }
-      }
+      do {
+          echo "$index <br>";
+          $index++;
+      } while($index <= 5)
       
      ?>
     
