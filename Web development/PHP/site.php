@@ -7,12 +7,11 @@
   <body>
     
     <?php
-      $index = 6;
       
-      do {
-          echo "$index <br>";
-          $index++;
-      } while($index <= 5)
+      $luckyNumbers = [4, 8, 15, 16, 23, 42];
+      for($i = 0; $i < count($luckyNumbers); $i++){
+          echo "$luckyNumbers[$i] <br>";
+      }
       
      ?>
     
