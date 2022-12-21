@@ -7,29 +7,37 @@
   <body>
     
     <form action="site.php" method="post">
-      First Num:<br> <input type="number" step="0.1" name="num1"><br>
-      OP:<br> <input type="text" name="op"><br>
-      Second Num:<br> <input type="number" step="0.1" name="num2"><br>
+      What was your grade?<br>
+      <input type="text" name="grade">
       <input type="submit">
     </form>
     
     <?php
-    $num1 = $_POST["num1"];
-    $num2 = $_POST["num2"];
-    $op = $_POST["op"];
-    
-    if($op == "+"){
-        echo $num1 + $num2;
-    } elseif($op == "-"){
-        echo $num1 - $num2;
-    } elseif($op == "*"){
-        echo $num1 * $num2;
-    } elseif($op == "/"){
-        echo $num1 / $num2;
-    } else{
-        echo "Invalid operator";
-    }
-    
+      
+      if(isset($_POST["grade"])){
+          $grade = $_POST["grade"];
+          
+          switch($grade){
+              case "A":
+                echo "You did great!";
+                break;
+              case "B":
+                echo "You did well.";
+                break;
+              case "C":
+                echo "You passed!";
+                break;
+              case "D":
+                echo "lmao";
+                break;
+              case "F":
+                echo "You failed. Better luck next time!";
+                break;
+              default:
+                echo "Invalid grade";
+          }
+      }
+      
      ?>
     
   </body>
