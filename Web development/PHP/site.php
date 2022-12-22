@@ -6,14 +6,11 @@
   </head>
   <body>
     
-    <?php
+    <?php include "header.html"; ?>
       
-      $luckyNumbers = [4, 8, 15, 16, 23, 42];
-      for($i = 0; $i < count($luckyNumbers); $i++){
-          echo "$luckyNumbers[$i] <br>";
-      }
+      <p>Test website page.</p>
       
-     ?>
+    <?php include "footer.html"; ?>
     
   </body>
 </html>
