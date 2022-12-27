@@ -7,30 +7,29 @@
   <body>
     
     <?php
-    class Student {
-        var $name;
-        var $major;
-        var $gpa;
-        
-        function __construct($name, $major, $gpa){
-            $this->name = $name;
-            $this->major = $major;
-            $this->gpa = $gpa;
+    
+    class Chef {
+        function makeChicken(){
+            echo "The chef makes chicken.";
         }
         
-        function hasHonors(){
-            if($this->gpa >= 3.5){
-                return "true";
-            } else{
-                return "false";
-            }
+        function makeSpecialDish(){
+            echo "The chef makes toast.";
         }
     }
     
-    $student1 = new Student("Jim", "Business", 2.8);
-    $student2 = new Student("Pam", "Art", 3.6);
+    class ItalianChef extends Chef{
+        function makeSpecialDish(){
+            echo "The chef makes pasta.";
+        }
+    }
     
-    echo $student2->hasHonors();
+    $chef = new Chef;
+    echo $chef->makeChicken();
+    echo $chef->makeSpecialDish();
+    
+    $ichef = new ItalianChef;
+    echo $ichef->makeSpecialDish();
     
      ?>
     
