@@ -1,5 +1,8 @@
-// Identifies the third letter of the variable name.
-const lastName = "Lovelace";
+const myArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
 
-// Only change code below this line
-const thirdLetterOfLastName = lastName[2]; // Change this line
+const myData = myArray[2][1];
