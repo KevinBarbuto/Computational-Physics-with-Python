@@ -1,8 +1,6 @@
-const myArray = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9],
-  [[10, 11, 12], 13, 14],
-];
+// Setup
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
 
-const myData = myArray[2][1];
+// Only change code below this line
+myArray.unshift(["Paul", 35]);
