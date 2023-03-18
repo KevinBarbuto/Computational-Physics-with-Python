@@ -1,6 +1,17 @@
-// Setup
-const myArray = [["John", 23], ["dog", 3]];
-myArray.shift();
+function nextInLine(arr, item) {
+  // Only change code below this line
 
-// Only change code below this line
-myArray.unshift(["Paul", 35]);
+  arr.push(item);
+  item = arr.shift(arr);
+
+  return item;
+  // Only change code above this line
+}
+
+// Setup
+let testArr = [1, 2, 3, 4, 5];
+
+// Display code
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
