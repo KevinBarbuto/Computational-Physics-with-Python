@@ -3,7 +3,7 @@
 Archive of tests, examples, and various simple codes I experiment with as I continue on my never-ending journey to improve my programming skills. Most of these probably wouldn't be of much use to others, but I like having this repository anyways as a public tracker of my learning effort and progress.
 
 
-Things I might put in this repository that wouldn't necessarily belong in their own repo:
+Things I might put in this repository include:
 
 - Codes I've written while following along with tutorials and guides.
 - Basic test scripts in other languages; aka, the sorts of codes I've already written in other languages, but still would like to make in languages I'm learning as practice.
