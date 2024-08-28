@@ -1,6 +1,6 @@
 # Practice
 
-Archive of tests, examples, and various simple codes I experiment with as I continue on my never-ending journey to improve my programming skills. Most of these probably wouldn't be of much use to others, but I like having this repository anyways as a public tracker of my learning effort and progress.
+Archive of tests, examples, and various simple codes I experiment with as I continue on my never-ending journey to improve my programming skills. Most of this repo's contents probably wouldn't be of much use to others, but I like having this repository anyways as a public tracker of my learning effort and progress.
 
 
 Things I might put in this repository include:
