@@ -9,3 +9,5 @@ Things I might put in this repository include:
 - Basic test scripts in other languages; aka, the sorts of codes I've already written in other languages, but still would like to make in languages I'm learning as practice.
 - Tests I've written for new commands and functions I'm playing around with, as I learn the nuances of certain languages and study them beyond what's found in the simple beginner tutorials.
 - Projects I've done for school during courses I've taken throughout my physics degree. This has included R (for statistics and probability), and Python (for data science).
+
+Of course, some projects of mine that fall into one of these categories may get their own repo, if I think they warrant it.
